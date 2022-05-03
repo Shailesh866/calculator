@@ -2,9 +2,9 @@
 - task: AzureRmWebAppDeployment@4
   inputs:
     ConnectionType: 'AzureRM'
-    azureSubscription: 'Azure Pass - Sponsorship(ce942ff5-f0eb-4896-b86a-cc9cade42778)'
+    azureSubscription: 'Azure Pass - Sponsorship(1)(ce942ff5-f0eb-4896-b86a-cc9cade42778)'
     appType: 'webApp'
-    WebAppName: 'Shlwebapp2'
+    WebAppName: 'shlwebapp2'
     packageForLinux: '$(System.DefaultWorkingDirectory)/**/*.zip'
 # Build a general Node.js project with npm.
 # Add steps that analyze code, save build artifacts, deploy, and more:
