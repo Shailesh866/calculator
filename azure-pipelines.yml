@@ -2,7 +2,7 @@
 - task: AzureRmWebAppDeployment@4
   inputs:
     ConnectionType: 'AzureRM'
-    azureSubscription: 'Azure Pass - Sponsorship(1)(ce942ff5-f0eb-4896-b86a-cc9cade42778)'
+    azureSubscription: 'Azure Pass - Sponsorship(ce942ff5-f0eb-4896-b86a-cc9cade42778)'
     appType: 'webApp'
     WebAppName: 'shlwebapp2'
     packageForLinux: '$(System.DefaultWorkingDirectory)/**/*.zip'
